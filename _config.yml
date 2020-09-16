@@ -53,5 +53,5 @@ plugins:
   - jekyll-feed
 
 
-include: [_pages]
-exclude: ['package.json', 'src' , 'node_modules', 'Gemfile', 'LICENSE', 'gulpfile.js', 'README.md']
+include: [_site]
+exclude: ['package.json', 'src' , 'node_modules', 'Gemfile', 'LICENSE', 'gulpfile.js', 'README.md', _include, _layouts, _pages, _posts, assets, script, src ]

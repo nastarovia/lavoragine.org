@@ -1,8 +1,11 @@
 ---
-layout: default-with-header
+layout: default
 title: nosotros
 permalink: /about/
 ---
+
+<div class="flex-container">
+    {% include header.html %}
 <div class="small-wrapper">
   <div class="about-container">
     <section class="about-header">
@@ -15,6 +18,7 @@ permalink: /about/
             <a href="{{site.music_resume_url}}"> music resume </a>
         </div>
     </section>
+    </div>
     <section class="about-body">
         {{ site.user_description_short | markdownify }}
         {{ site.user_description_appendix | markdownify }}

@@ -23,8 +23,8 @@ github: nastarovia
 
 relevant_tags: ['Proyectos', 'Edicion digital', 'Blog']
 
-resume_url: https://docs.google.com/document/d/1dJIboSF-ktdaP28DDu-gcuOW1SCCnkSdqtodJGwYkaA/export?format=pdf
-music_resume_url: https://docs.google.com/document/d/17F3g8jx2UHby77P7shJlsKAW2Efasuc1HuQ3Ro3v3zI/export?format=pdf
+resume_url:
+music_resume_url: 
 
 author: la Vorágine
 author_title: Un laboratorio de edición digital, open source & accesible

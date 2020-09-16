@@ -1,0 +1,57 @@
+# Site settings
+title: La voragine
+description: |
+  LaVoragine.org es un laboratorio de edición digital.
+
+url: http://lavoragine.org
+
+about_title: Nosotros
+projects_title: Home
+
+# User settings
+user_description_appendix: |
+  Este sitio es un laboratorio: probamos cosas y te explicamos como nos fue. Nuestro tema es la edición digital. Open source, accesible & libre. Este sitio fue construido en [Jekyll][jekyll], y está alojado en [GitHub Pages][gh-pages]. Es *open source*, así que, si te gusta, te invitamos a ir a nuestro repo en [GitHub][github] o hacer un fork para crear tu propia versión.
+
+  [github]: https://github.com/nastarovia
+  [gh-pages]: https://pages.github.com/
+  [jekyll]: https://jekyllrb.com
+
+
+email: info@lavoragine.org
+linkedin: nastarovia
+github: nastarovia
+
+relevant_tags: ['Proyectos', 'Edicion digital', 'Blog']
+
+resume_url: https://docs.google.com/document/d/1dJIboSF-ktdaP28DDu-gcuOW1SCCnkSdqtodJGwYkaA/export?format=pdf
+music_resume_url: https://docs.google.com/document/d/17F3g8jx2UHby77P7shJlsKAW2Efasuc1HuQ3Ro3v3zI/export?format=pdf
+
+author: la Vorágine
+author_title: Un laboratorio de edición digital, open source & accesible
+author_photo: logo.png
+user_description_short: |
+  Este sitio es un laboratorio: probamos cosas y te explicamos como nos fue. Nuestro tema es la edición digital. Open source, accesible & libre.
+
+
+## Disqus
+disqus_identifier: voragine
+
+## Tracker
+google_analytics_id: UA-109461282-1
+
+keywords: 'edición digital, epub, pandoc, ruby'
+
+## URLs
+permalink: ':title/'
+
+baseurl: ''
+projects_url: '/'
+about_url: '/about'
+
+
+plugins:
+  - jekyll-feed
+
+
+include: [_pages]
+exclude: ['package.json', 'src' , 'node_modules', 'Gemfile', 'LICENSE', 'gulpfile.js', 'README.md']

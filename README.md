@@ -26,3 +26,5 @@ Inspired by
 - [Isotope](https://isotope.metafizzy.co/)
 - [Adam Blog](https://github.com/artemsheludko/adam-blog/)
 - [Jekyll](https://github.com/jekyll/jekyll/)
+
+Alojado en: [Vercel](https://vercel.com/)

@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+  <title>Edición sostenible con pandoc, markdown y git. Parte 2: Objetivo, herramientas & requisitos | La voragine</title>
+
+  <!-- For Atom Feed-->
+  
+
+  <meta name="msvalidate.01" content="D8B989D9516D49E8D4EFD5141B2950A9" />
+  <meta name="description" content="El propósito de este tutorial será mostrar desde un punto de vista práctico como combinar herramientas para crear un libro multiformato, de una mera sostenib..."/>
+  <meta name="keywords" content="edición digital, epub, pandoc, ruby,edicion digital Proyectos"/>
+  <meta property="og:type" content="article"/>
+  <meta property="og:title" content="Edición sostenible con pandoc, markdown y git. Parte 2: Objetivo, herramientas & requisitos | La voragine"/>
+  <meta property="og:description" content="El propósito de este tutorial será mostrar desde un punto de vista práctico como combinar herramientas para crear un libro multiformato, de una mera sostenib..."/>
+  
+  <meta property="og:image" content="http://localhost:4000/assets/img/flower2.jpeg">
+  
+  <meta property="og:url" content="http://localhost:4000/edicion-sostenible-con-pandoc-markdown-y-git-parte-2/"/>
+  <meta name="twitter:card" content="summary_large_image"/>
+
+  <link rel="icon" href="/assets/img/favicon.png">
+
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/balloon-css/0.5.0/balloon.min.css" />
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+  <link href="//fonts.googleapis.com/css?family=PT+Sans|Playfair+Display:700|Montserrat:300,400" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/main.css">
+</head>
+
+  <body class="d-none">
+      <div class="flex-container">
+    <header class="main-header">
+    <div class="wrapper">
+        <div class="header-flex">
+            <div class="left-header-container">
+                <a href="/"> Home </a>
+            </div>
+            <div class="center-header-container">
+                <div class="logo">
+                    <div class="author-name">la Vorágine</div>
+                    <div class="author-title">Un laboratorio de edición digital, open source & accesible</div>
+                </div>
+                <ul class="contact-links">
+    
+    <li class="email" data-balloon="Email" data-balloon-pos="left"><a href="mailto:info@lavoragine.org"><i class="far fa-envelope"></i></a></li>
+    
+
+    
+    <li class="linkedin" data-balloon="LinkedIn" data-balloon-pos="left"><a href="https://in.linkedin.com/in/nastarovia" target="_blank"><i
+            class="fab fa-linkedin"></i></a></li>
+    
+
+    
+    <li class="github" data-balloon="GitHub" data-balloon-pos="right"><a href="http://github.com/nastarovia" target="_blank"><i
+            class="fab fa-github"></i></a></li>
+    
+
+    
+    
+
+    
+    <li class="resume" data-balloon="Resume" data-balloon-pos="right"><a href="https://docs.google.com/document/d/1dJIboSF-ktdaP28DDu-gcuOW1SCCnkSdqtodJGwYkaA/export?format=pdf"><i
+            class="far fa-file-alt"></i></a></li>
+    
+</ul>
+            </div>
+            <div class="right-header-container">
+                <a href="/about"> Nosotros </a>
+            </div>
+        </div>
+    </div>
+</header> <!-- End Header -->
+
+    <article class="article-page">
+        <div class="page-image">
+            
+            <div class="cover-image" style="background: url(/assets/img/flower2.jpeg) center no-repeat; background-size: cover;"></div>
+            
+        </div>
+        <div class="wrapper">
+            <div class="page-content">
+                <div class="header-page">
+                    <h1 class="page-title">Edición sostenible con pandoc, markdown y git. Parte 2: Objetivo, herramientas & requisitos</h1>
+                    <div class="page-date"><time datetime="2020-08-22 02:00:00 +0200">Aug 22, 2020</time></div>
+                    <div class="page-links">
+                    
+                    
+                    
+                    
+                    </div>
+                    <div class="page-share">
+    <a href="https://twitter.com/intent/tweet?text=Edición sostenible con pandoc, markdown y git. Parte 2: Objetivo, herramientas & requisitos&url=http://localhost:4000/edicion-sostenible-con-pandoc-markdown-y-git-parte-2/" title="Share on Twitter" rel="nofollow" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+    <!--<a href="https://facebook.com/sharer.php?u=http://localhost:4000/edicion-sostenible-con-pandoc-markdown-y-git-parte-2/" title="Share on Facebook" rel="nofollow" target="_blank"><i class="fab fa-facebook" aria-hidden="true"></i></a>-->
+    <a href="https://www.linkedin.com/shareArticle?url=http://localhost:4000/edicion-sostenible-con-pandoc-markdown-y-git-parte-2/" title="Share on LinkedIn" rel="nofollow" target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+    <!--<a href="https://plus.google.com/share?url=http://localhost:4000/edicion-sostenible-con-pandoc-markdown-y-git-parte-2/" title="Share on Google+" rel="nofollow" target="_blank"><i class="fab fa-google-plus-g" aria-hidden="true"></i></a>-->
+</div>
+                </div>
+                <p>El propósito de este tutorial será mostrar desde un punto de vista práctico como combinar herramientas para crear un libro multiformato, de una mera sostenible y automatizada, y que, de paso, resuelve punto por punto nuestro problema..</p>
+
+<p>Este es únicamente un posible <em>workflow</em> y desde luego que existen muchas otras herramientas y combinaciones. El punto que espero demostrar es únicamente la cantidad de herramientas que existen a nuestra disposición, que pueden transformar el proceso de producción de un libro hasta el punto de permitirnos automatizar todas las tareas, ganando en eficiencia y al mismo tiempo en control sobre nuestros proyectos.</p>
+
+<p>Para mostrar esto, voy a replantear mi proyecto (la edición de <em>Mío cid campeador</em> de Vicente Huidobro) y rehacerlo desde el principio. Para ello:</p>
+
+<ul>
+  <li>Crearemos, a partir de los archivos que tenemos, un set de archivos fuente en markDown (texto plano con la extensión <code class="language-plaintext highlighter-rouge">.md</code>)</li>
+  <li>Luego crearemos un repositorio para albergar los archivos necesarios</li>
+  <li>Crearemos un archivo formateado en <code class="language-plaintext highlighter-rouge">yaml</code> para almacenar la metadata del libro</li>
+  <li>Pondremos este repositorio (el directorio donde vive nuestro proyecto) bajo control de versiones con <code class="language-plaintext highlighter-rouge">git</code></li>
+  <li>Sincronizaremos este repositorio local con un repositorio remoto en GitHub</li>
+  <li>Utilizando pandoc, crearemos nuestro Epub, y crearemos un archivo ICML para importarlo en inDesign</li>
+  <li>Crearemos desde InDesign el PDF final de imprenta</li>
+  <li>Veremos como hacer correcciones, manteniendo un único set de archivos fuente y guardando un registro histórico de correcciones.</li>
+  <li>y por último, crearemos una página web con los archivos de nuestro libro.</li>
+</ul>
+
+<h3 id="21-requisitos">2.1 Requisitos</h3>
+
+<p>Para seguir este tutorial, es aconsejable (aunque no indispensable):</p>
+
+<ul>
+  <li>Alguna familiaridad con la línea de comandos.</li>
+  <li>Tener conocimientos básicos de HTML y CSS.</li>
+  <li>Un conocimientos de InDesign a nivel de diseño editorial.</li>
+  <li>Una mente abierta (todo lo anterior se puede reemplazar con una aplicada búsqueda en Google, esto último no).</li>
+</ul>
+
+<h3 id="23-herramientas--software">2.3 Herramientas &amp; software</h3>
+
+<p>Y deberemos tener instalado en nuestro PC:</p>
+
+<ul>
+  <li>Un editor de texto plano (no procesador de texto): yo utilizaré Atom, pero hay una serie de editores de texto igualmente útiles y libres (Visual Studio Code, Sublime Text, Vim, etc…)</li>
+  <li>Línea de comandos (en Windows, el PowerShell; en Linux, el terminal o uno cualquiera de sus emuladores; en Mac, la terminal).</li>
+  <li>Pandoc</li>
+  <li>InDesign</li>
+  <li>Git y el cliente de escritorio de GitHub</li>
+  <li>MS Word</li>
+  <li>Jeckyll</li>
+</ul>
+
+<p>Instalar software es tedioso. De momento, vamos a sumir que (como yo) tenéis todo el software instalado en vuestro ordenador.</p>
+
+<p>Y dado que de lo que se trata es de probar algo distinto (no se puede esperar un resultado diferente si hacemos lo mismo), vamos a cambiar nuestro enfoque y utilizar Markdown como formato base, en lugar del consabido MS Word. Las razones para escoger markdown son exactamente las mismas que para desechar MS Word y se pueden resumir en los tres mantras de cualquier workflow editorial en un entorno digital:</p>
+
+<ul>
+  <li>estructura</li>
+  <li>sostenibilidad</li>
+  <li>interoperatividad</li>
+</ul>
+
+<p>Necesitamos un archivo bien estructurado. Esto garantiza que pueda ser mapeado correctamente para la importación en InDesign, que se pueda generar un epub automáticamente, y que este epub, tal cual ha sido exportado por pandoc, sea accesible.</p>
+
+<p>El hecho de que trabajemos en texto plano (markdown más que un formato, es una convención para etiquetar texto plano), garantiza que estos archivos sean legibles por cualquier ordenador, sea cual sea el sistema operativo y el software que tengan instalado, ahora, hace treinta años o en el siglo XXII. Además, son tan interpretables por máquinas como legibles por humanos, y pesan ridículamente poco comparados con sus colegas con ínfulas, los archivos generados por procesadores de texto como MS Word o Open Office.</p>
+
+<p>Y por estas razones, son también fácilmente trasladables (de una maquina a otra, de un software a otro, de un lenguaje de etiquetado a otro). Si el archivo está bien estructurado, podemos hacer en efecto lo que queramos con él.</p>
+
+<p>Manos a la obra.</p>
+
+<h3 id="configurar-el-espacio-de-trabajo">Configurar el espacio de trabajo</h3>
+
+<p>Lo primero será crear el directorio donde van a vivir los archivos de mi proyecto. En mi ordenador será la carpeta <code class="language-plaintext highlighter-rouge">mioCidCampeador</code>. Dentro de esta carpeta, además crearé una carpeta para las imágenes, otra para los archivos markdown y una última que llamaré <code class="language-plaintext highlighter-rouge">src</code> (por “source”: el archivo fuente o archivo base). para ello, nos situamos con el terminal en el directorio donde queremos crear la carpeta de nuestro proyecto), y escribimos:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>mkdir mioCidCampeador
+cd mioCidCampeador
+mkdir imagenes, markdown, src, indd, icml,
+</code></pre></div></div>
+
+<p>Naturalmente, también se puede crear la carpeta haciendo <code class="language-plaintext highlighter-rouge">click derecho &gt; crear carpeta</code>, pero para los propósitos de este tutorial, utilizaremos la línea de comandos: es más rápido y de esta manera nos familiarizamos con su uso.</p>
+
+<p>Una vez creada nuestra carpeta, podemos poner nuestro documento (si: mioCidFinal.docx) en la carpeta correspondiente (<code class="language-plaintext highlighter-rouge">src</code>). Este es el punto de partida de nuestro proyecto.</p>
+
+                <div class="page-footer">
+
+                </div>
+                <section class="author-box">
+  <div class="author-left">
+    <img src="/assets/img/logo.png" alt="la Vorágine" class="author-img">
+    <ul class="contact-links">
+    
+    <li class="email" data-balloon="Email" data-balloon-pos="left"><a href="mailto:info@lavoragine.org"><i class="far fa-envelope"></i></a></li>
+    
+
+    
+    <li class="linkedin" data-balloon="LinkedIn" data-balloon-pos="left"><a href="https://in.linkedin.com/in/nastarovia" target="_blank"><i
+            class="fab fa-linkedin"></i></a></li>
+    
+
+    
+    <li class="github" data-balloon="GitHub" data-balloon-pos="right"><a href="http://github.com/nastarovia" target="_blank"><i
+            class="fab fa-github"></i></a></li>
+    
+
+    
+    
+
+    
+    <li class="resume" data-balloon="Resume" data-balloon-pos="right"><a href="https://docs.google.com/document/d/1dJIboSF-ktdaP28DDu-gcuOW1SCCnkSdqtodJGwYkaA/export?format=pdf"><i
+            class="far fa-file-alt"></i></a></li>
+    
+</ul>
+  </div>
+  <div class="author-right">
+    <h2>la Vorágine</h2>
+    <p>Este sitio es un laboratorio: probamos cosas y te explicamos como nos fue. Nuestro tema es la edición digital. Open source, accesible &amp; libre.</p>
+
+  </div>
+</section>
+
+                <div class="recent-box">
+  <h2 class="recent-title">Recent Posts</h2>
+  <div class="recent-list">
+    
+      
+        <a href="/edicion-sostenible-con-pandoc-markdown-y-git-parte-3/" class="recent-item" style="background: url(/assets/img/leaves.jpg) center no-repeat;"><span>Edición sostenible con pandoc, markdown y git. Parte 3: Formatear</span></a>
+      
+    
+      
+        <a href="/edicion-sostenible-con-pandoc-markdown-y-git-parte-2/" class="recent-item" style="background: url(/assets/img/flower2.jpeg) center no-repeat;"><span>Edición sostenible con pandoc, markdown y git. Parte 2: Objetivo, herramientas & requisitos</span></a>
+      
+    
+      
+        <a href="/edicion-sostenible-con-pandoc-markdown-y-git-parte-1/" class="recent-item" style="background: url(/assets/img/bright-flowers.jpg) center no-repeat;"><span>Edición sostenible con pandoc, markdown y git. Parte 1: El problema</span></a>
+      
+    
+  </div>
+</div> <!-- End Recent-Box -->
+
+            </div>
+        </div> <!-- End Wrapper -->
+    </article>
+<script src="//unpkg.com/isotope-layout@3.0.6/dist/isotope.pkgd.min.js"></script>
+<script src="//unpkg.com/isotope-packery@2.0.1/packery-mode.pkgd.js"></script>
+<script src="//unpkg.com/imagesloaded@4.1.4/imagesloaded.pkgd.js"></script>
+<script src="/assets/js/main.js"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-109461282-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-109461282-1');
+</script>
+
+</div>
+
+      <script src="//unpkg.com/isotope-layout@3.0.6/dist/isotope.pkgd.min.js"></script>
+<script src="//unpkg.com/isotope-packery@2.0.1/packery-mode.pkgd.js"></script>
+<script src="//unpkg.com/imagesloaded@4.1.4/imagesloaded.pkgd.js"></script>
+<script src="/assets/js/main.js"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-109461282-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-109461282-1');
+</script>
+
+  </body>
+</html>

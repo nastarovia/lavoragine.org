@@ -48,10 +48,13 @@ baseurl: ''
 projects_url: '/'
 about_url: '/about'
 
+# Build settings
+markdown: kramdown
 
 plugins:
+  - jekyll-paginate
   - jekyll-feed
-
+  - jekyll-sitemap
 
 include: [_pages]
 exclude: ['package.json', 'src' , 'node_modules', 'Gemfile', 'LICENSE', 'gulpfile.js', 'README.md']

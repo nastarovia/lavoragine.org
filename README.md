@@ -2,7 +2,7 @@
 
 [Visita la página aquí.](https://lavoragine-org.vercel.app)
 
-haz tu propia versión! necesecitas:
+haz tu propia versión! necesitas:
 
 (Construido con:)
 - Node v8.0.0

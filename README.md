@@ -1,21 +1,21 @@
 # la voragine 
 
-[Visit the site here.](http://librosdelavoragine.com/) 
+[Visita la página aquí.](https://lavoragine-org.vercel.app 
 
-haz tu propia versión! ncesecitas:
+haz tu propia versión! necesecitas:
 
-(Tested with:)
+(Construido con:)
 - Node v8.0.0
 - NPM v5.0.0
 - Bundler v1.16.0
 - Gem v2.7.1
 
-If you're using NVM, this will get you to the right Node/NPM versions:
+si usas NVM, esto te da las dependencias correctass:
 ```$bash
 nvm use v8.0.0
 ```
 
-To run:
+to run:
 ```$bash
 bundle install
 npm install

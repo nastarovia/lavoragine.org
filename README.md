@@ -10,7 +10,7 @@ haz tu propia versión! necesitas:
 - Bundler v1.16.0
 - Gem v2.7.1
 
-si usas NVM, esto te da las dependencias correctass:
+si usas NVM, esto te da las dependencias correctas:
 ```$bash
 nvm use v8.0.0
 ```

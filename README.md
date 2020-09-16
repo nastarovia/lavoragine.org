@@ -1,6 +1,6 @@
 # la voragine 
 
-[Visita la página aquí.](https://lavoragine-org.vercel.app 
+[Visita la página aquí.](https://lavoragine-org.vercel.app)
 
 haz tu propia versión! necesecitas:
 

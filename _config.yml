@@ -7,6 +7,7 @@ url: http://lavoragine.org
 
 about_title: Nosotros
 projects_title: Home
+contact_title: Contacto
 
 # User settings
 user_description_appendix: |
@@ -47,6 +48,7 @@ permalink: ':title/'
 baseurl: ''
 projects_url: '/'
 about_url: '/about'
+contact_url: '/contact'
 
 
 plugins:

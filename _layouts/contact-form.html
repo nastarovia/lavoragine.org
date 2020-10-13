@@ -1,0 +1,17 @@
+---
+layout: default-with-header
+---
+<div class="page-image">
+    {% if page.image_bg %}
+    <div class="cover-image" style="background: url({{"/assets/img/" | prepend: site.baseurl | append: page.image_bg}}) center no-repeat; background-size: cover;"></div>
+    {% elsif page.image %}
+    <div class="cover-image" style="background: url({{"/assets/img/" | prepend: site.baseurl | append: page.image}}) center no-repeat; background-size: cover;"></div>
+    {% endif %}
+</div>
+<div class="wrapper">
+    <div class="page-content">
+
+{{ content }}
+{% include contact-form.html %}
+</div>
+</div>

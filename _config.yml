@@ -11,7 +11,7 @@ contact_title: Contacto
 
 # User settings
 user_description_appendix: |
-  Este sitio es un laboratorio: probamos cosas y te explicamos como nos fue. Nuestro tema es la edición digital. Open source, accesible & libre. Este sitio fue construido en [Jekyll][jekyll], y está alojado en [GitHub Pages][gh-pages]. Es *open source*, así que, si te gusta, te invitamos a ir a nuestro repo en [GitHub][github] o hacer un fork para crear tu propia versión.
+  Este sitio fue construido en [Jekyll][jekyll], y está alojado en [GitHub Pages][gh-pages]. Es *open source*, así que, si te gusta, te invitamos a ir a nuestro repo en [GitHub][github] o hacer un fork para crear tu propia versión.
 
   [github]: https://github.com/nastarovia
   [gh-pages]: https://pages.github.com/

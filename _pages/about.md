@@ -13,9 +13,9 @@ permalink: /about/
             <img src="{{site.baseurl}}/assets/img/{% if site.author_photo %}{{site.author_photo}}{% endif %}" alt="{{site.author}}">
         </div>
         <div class="text-center">
-            <a href="{{site.resume_url}}"> tech resume</a>
-            |
-            <a href="{{site.music_resume_url}}"> music resume </a>
+            <a href="{{site.resume_url}}"> </a>
+            
+            <a href="{{site.music_resume_url}}">  </a>
         </div>
     </section>
     </div>

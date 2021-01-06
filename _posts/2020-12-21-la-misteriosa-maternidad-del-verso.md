@@ -7,14 +7,14 @@
   subject: ensayo
   isbn: '978-84-940629-6-4'
   description: Un libro hermosos y fundamental
-  picture: ../img/3_conferencias_thumb.png
+  image: 3_conferencias_thumb.png
   tema: 'Ensayo literario, literatura de genero, feminismo'
   fecha_publicacion: 'Diciembre de 2020'
   pvp: '10.000 $'
   precioEbook: '3.500 $'
   medidas: '110 x 180 mm'
   paginas: 128
-  tags: [edicion digital, literatura, feminismo]
+  tags: [Edicion digital, Libros, feminismo]
 ---
 «El año 1938 el Ministro de Educación de Uruguay organizó un curso de verano llamado «Curso sudamericano en la Universidad de Montevideo. A una de las sesiones fueron invitadas las mayores exponentes de la poesía del cono sur de ese momento: Juana de Ibarbourou, de Uruguay; Alfonsina Storni, de Argentina y Gabriela Mistral, de Chile, para hablar de su labor poética y explicar cómo escribían sus versos.»
 

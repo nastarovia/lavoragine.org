@@ -1,0 +1,39 @@
+<article class="animal">
+
+<h1>{{ page.title }} | {{page.subtitle}}</h1>
+<div class="image-wrapper">
+<img class="book-image" src="{{ page.picture }}" alt="foto de {{ page.title | downcase }}">
+<div class="info_libro">
+<p class="subject {{ page.subject | downcase }}"> <b>Género:</b>
+  {{ page.subject }}
+  </p>
+  <p class="isbn {{ page.isbn | downcase }}"><b>ISBN:</b>
+  {{ page.isbn }}
+  <p class="fecha_publicacion {{ page.fecha_publicacion | downcase }}"> <b>Fecha de publicación:</b>
+    {{ page.fecha_publicacion }}
+  </p>
+  <p class="pvp {{ page.pvp | downcase }}"><b>Precio de venta al público:</b>
+    {{ page.pvp }}
+    <p class="precioEbook {{ page.precioEbook | downcase }}"><b>Precio eBook:</b>
+  {{ page.precioEbook }}
+  <p class="medidas {{ page.medidas | downcase }}"><b>Medidas:</b>
+  {{ page.medidas }}
+  <p class="paginas {{ page.paginas | downcase }}"> <b>Páginas:</b>
+  {{ page.paginas }}
+  </div>
+  </p>
+</div>
+<div class="book_details">
+  <p class="bookauthor {{ page.bookauthor | downcase }}"> Por
+    {{ page.bookauthor }}
+  </p>
+  <p class="contributors {{ page.contributors | downcase }}">
+    {{ page.contributors }}
+  </p>
+
+  </p>
+  <div>
+    {{ content }}
+  </div>
+</div>
+</article>

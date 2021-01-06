@@ -22,7 +22,7 @@ email: info@lavoragine.org
 linkedin: nastarovia
 github: nastarovia
 
-relevant_tags: ['Proyectos', 'Edicion digital', 'Blog']
+relevant_tags: ['Proyectos', 'Edicion digital', 'Blog', 'Libros']
 
 resume_url:
 music_resume_url:
@@ -54,6 +54,9 @@ contact_url: '/contact'
 plugins:
   - jekyll-feed
 
+collections:
+  libros:
+    output: true
 
 include: [_pages]
 exclude: ['package.json', 'src' , 'node_modules', 'Gemfile', 'LICENSE', 'gulpfile.js', 'README.md']

@@ -1,7 +1,7 @@
 # Site settings
 title: La voragine
 description: |
-  LaVoragine.org es un laboratorio de edición digital.
+  LaVoragine.org es una editorial & un laboratorio de edición digital.
 
 url: http://lavoragine.org
 
@@ -59,4 +59,4 @@ collections:
     output: true
 
 include: [_pages]
-exclude: ['package.json', 'src' , 'node_modules', 'Gemfile', 'LICENSE', 'gulpfile.js', 'README.md']
+exclude: ['package.json', 'src' , 'node_modules', 'Gemfile', 'LICENSE', 'gulpfile.js', 'README.md', 'vendor']

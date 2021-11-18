@@ -7,7 +7,7 @@
   subject: ensayo
   isbn: '978-84-940629-6-4'
   description: Un libro hermosos y fundamental
-  image: 3_conferencias_thumb.png
+  image: 3conferencias_cover_marco.png
   tema: 'Ensayo literario, literatura de genero, feminismo'
   fecha_publicacion: 'Diciembre de 2020'
   pvp: '10.000 $'

@@ -7,7 +7,7 @@
   subject: Poesía
   isbn: '978-84-940629-6-4'
   description: Un libro hermosos y fundamental
-  image: williamscarlos.png
+  image: gran_novela.jpg
   tema: 'Crónica literaria, no ficción, modernismo'
   fecha_publicacion: 'Enero de 2022'
   pvp: '11.000 $'

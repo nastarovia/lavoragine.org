@@ -7,7 +7,7 @@
   subject: feminismo
   isbn: '978-84-940629-6-4'
   description: Un libro hermosos y fundamental
-  image: eleanor_marx-2.jpg
+  image: eleanor_marx_2.jpg
   tema: 'Crónica literaria, no ficción, modernismo'
   fecha_publicacion: 'Enero de 2022'
   pvp: '8.500 $'

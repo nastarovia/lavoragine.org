@@ -1,10 +1,10 @@
 ---
 layout: post
-title: 'Editar en la era digital'
-date: 2020-08-26 00:00:00 -0000
+title: 'Editar en tiempos digitales'
+date: 2021-11-26 00:00:00 -0000
 tags: [Edicion digital, Proyectos, Blog]
 image: leaves.jpg
-excerpt_separator: <!--more-->
+excerpt_separator: <!--mas-->
 ---
 
 # La digitalización y la edición de contenidos

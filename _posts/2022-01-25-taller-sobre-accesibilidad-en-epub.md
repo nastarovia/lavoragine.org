@@ -1,13 +1,11 @@
 ---
 layout: post
-title: 'Accesibilidad en Epub'
+title: 'Accesibilidad en Libros electrónicos'
 date: 2022-01-25 00:00:00 -0000
 tags: [Edicion digital, Proyectos, Blog]
 image: leaves.jpg
 excerpt_separator: <!--mas-->
----
- 
-## Introducción      
+---    
 
 Todo el mundo está de acuerdo en que la accesibilidad es importante, pero lo cierto es la mayoría de las publicaciones hoy en día no son accesibles, y se necesitan esfuerzos grandiosos para enmendarlas, esfuerzos que la mayoría de los editores no pueden costearse. Rehacer archivos para incorporar elementos de accesibilidad  es una tarea que consume gran cantidad de tiempo. Y, sin embargo, es una urgencia que no puede ser aplazada. 
 

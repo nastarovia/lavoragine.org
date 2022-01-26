@@ -3,7 +3,7 @@ layout: post
 title: 'Accesibilidad en Libros electrónicos'
 date: 2022-01-25 00:00:00 -0000
 tags: [Edicion digital, Proyectos, Blog]
-image: flower2.jpg
+image: ice-texture.jpeg
 excerpt_separator: <!--mas-->
 ---    
 

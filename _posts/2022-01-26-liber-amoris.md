@@ -10,6 +10,7 @@
   image: liberAmoris_cover_5.jpg
   tema: 'Crónica literaria, no ficción, modernismo'
   fecha_publicacion: 'Enero de 2022'
+  order: '1'
   pvp: '10.000 $'
   precioEbook: '3.500 $'
   medidas: '110 x 180 mm'

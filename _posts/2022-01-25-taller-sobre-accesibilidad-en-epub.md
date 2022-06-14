@@ -4,6 +4,7 @@ title: 'Accesibilidad en Libros electrónicos'
 date: 2022-01-25 00:00:00 -0000
 tags: [Edicion digital, Proyectos, Blog]
 image: ice-texture.jpeg
+order: '2'
 excerpt_separator: <!--mas-->
 ---    
 

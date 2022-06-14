@@ -53,6 +53,7 @@ contact_url: '/contact'
 
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
 
 collections:
   libros:

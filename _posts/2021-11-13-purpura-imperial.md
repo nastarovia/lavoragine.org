@@ -10,6 +10,7 @@
   image: purpura_imperial_cover_thumb.jpg
   tema: 'Crónica literaria, no ficción, modernismo'
   fecha_publicacion: 'Diciembre de 2021'
+  order: '3'
   pvp: '11.000 $'
   precioEbook: '3.500 $'
   medidas: '110 x 180 mm'

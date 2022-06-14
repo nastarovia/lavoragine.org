@@ -4,6 +4,8 @@ title: 'Editar en tiempos digitales'
 date: 2021-11-26 00:00:00 -0000
 tags: [Edicion digital, Proyectos, Blog]
 image: leaves.jpg
+
+order: '14'
 excerpt_separator: <!--mas-->
 ---
 

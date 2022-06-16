@@ -16,24 +16,12 @@
   paginas: 128
   tags: [Edicion digital, Libros, feminismo]
 ---
-«El año 1938 el Ministro de Educación de Uruguay organizó un curso de verano llamado «Curso sudamericano en la Universidad de Montevideo. A una de las sesiones fueron invitadas las mayores exponentes de la poesía del cono sur de ese momento: Juana de Ibarbourou, de Uruguay; Alfonsina Storni, de Argentina y Gabriela Mistral, de Chile, para hablar de su labor poética y explicar cómo escribían sus versos.»
+El año 1938 el Ministerio de Educación (en esa época "de Instrucción") de Uruguay organizó un curso de verano en Instituto Vázquez Acevedo. A una de las sesiones fueron invitadas las mayores exponentes de la poesía del cono sur de ese momento: Juana de Ibarbourou, de Uruguay; Alfonsina Storni, de Argentina y Gabriela Mistral, de Chile, para hablar de su labor poética y explicar cómo escribían sus versos.
 
-Texto fundacional del feminismo literario en lengua española, Ibarbourou, Storni y Mistral plantaron, sin acaso saberlo, la semilla de toda la poesía femenina latinoamericana posterior.
+Se trata de textos fundacionales del feminismo literario en lengua española: Ibarbourou, Storni y Mistral plantaron, sin acaso saberlo, la semilla de toda la poesía femenina latinoamericana posterior.
 
-«Son tres mujeres unidas en la historia de la poesía hispanoamericana bajo la tutela de la adelantada Delmira Agustini, la más agónica, que fue destruida por la red de prejuicios del Uruguay de 1914. Las tres sufrientes y heroicas, pagaron con su vida o su felicidad, la entrega a la Poesía.»
+Lee la [conferencia de Alfonsina Storni](../entre_un_par_de_maletas_a_medio_abrir_y_las_manecillas_del_reloj/)
 
->«El poema tampoco sabemos dónde comienza.
->¿Comienza en el momento en que se hace? […]
->¿Comienza en el momento en que nos cae esa
->la emoción? Porque cuando la lanzada nos trabaja,
->ya venía de tan tarde el hacerse la carne tierna
->para la lanzada.
->Habría que remontar a todo lo que nos ha ido
->trabajando el corazón, para esa calidad de la carne
->que le damos a la cuchillada. Es decir, habría que
->comenzar en la infancia, donde todo comienza.
->Pero, cuando nacemos ya traemos tanto capital
->viejo y deuda grande.
->Habría que comenzar con toda la muchedumbre
->de nuestros antepasados. ¡Menudo trabajo contar
->cómo se hacen los versos!»
+También puedes escuchar el audio de la conferencia: {% include embed_audio.html src="../assets/audio/alfonsina_storni.mp3" %}
+O descargar una [muestra](https://github.com/lavoragine/la_misteriosa_maternidad_del_verso/releases/tag/demo) del libro que incluye la conferencia de Alfonsina Storni y el audio de la conferencia.
+

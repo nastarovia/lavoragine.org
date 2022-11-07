@@ -5,7 +5,7 @@
   bookauthor: 'Edgar Saltus'
   contributors: 'Prologo de Jason DeBoer & traducción de Gillem Gómez'
   subject: crónica literaria
-  isbn: '978-84-940629-6-4'
+  isbn: '978-956-09587-1-6'
   description: Un libro hermosos y fundamental
   image: purpura_imperial_cover_thumb.jpg
   tema: 'Crónica literaria, no ficción, modernismo'

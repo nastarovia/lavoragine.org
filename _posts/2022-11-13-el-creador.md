@@ -6,7 +6,7 @@
   contributors: 'Prologo de Jaime Naranjo & traducción de Luisina Rüedi'
   subject: novela
   isbn: '978-84-940629-6-4'
-  description: "una novela de Mynona, el padre de la Gestalt"
+  description: una novela de Mynona
   image: elCreadorCover.jpg
   tema: 'novela gotica, expresionismo, vanguardia, gestalt'
   fecha_publicacion: 'Diciembre de 2022'

@@ -1,0 +1,1 @@
+{"rule":"MORFOLOGIK_RULE_ES","sentence":"^\\QDespués de lo que he pensado de ti y de mis sentimientos hacia ti, de que te considerara casi la encarnación de un ángel, enfrentar por un instante la sombra de la duda de que fueras eso que no me atrevo a nombrar: una vulgar trampa de hostal; un juguete besable; labios tan comunes como los peldaños de la escalera.\\E$"}

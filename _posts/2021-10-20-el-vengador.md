@@ -1,7 +1,7 @@
 ---
   layout: libros
   title: El vengador
-  subtitle: Una extraña historia de amor
+  subtitle: 
   bookauthor: 'Thomas de Quincey'
   contributors: 'Traducción de Mario Ortega. Postfacio de Susan Chaplin'
   subject: novela

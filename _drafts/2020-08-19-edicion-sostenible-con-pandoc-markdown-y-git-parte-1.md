@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: draft
 title: 'Edición sostenible con pandoc, markdown y git. Parte 1: El problema'
 date: 2020-08-19 00:00:00 -0000
 tags: [Edicion digital, Proyectos]

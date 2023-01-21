@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: draft
 title: 'Edición sostenible con pandoc, markdown y git. Parte 3: Formatear'
 date: 2020-08-26 00:00:00 -0000
 tags: [Edicion digital, Proyectos]
